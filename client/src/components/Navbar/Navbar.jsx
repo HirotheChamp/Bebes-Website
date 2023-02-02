@@ -3,14 +3,21 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div id='navbar'>
-        <ul id="navbar-items">
-            <li className='navbar-list'>Home</li>
-            <li className='navbar-list'>Discography</li>
-            <li className='navbar-list'>Photo Edit</li>
-            <li className='navbar-list'>About Me</li>
+    <header className='navbar'>
+  <div className='navbar-logo'>
+<h1>SeRi Photography</h1>
+</div>
+
+      <nav className='navbar-items'>
+    
+        <ul>
+            <a href="/"><li >Home</li></a>
+            <a href="/services"><li >Services</li></a>
+            <a href="/contact"><li>Contact Me</li></a>
+            <a href="/about"><li>About Me</li></a>
         </ul>
-    </div>
+        </nav>
+    </header>
   )
 }
 
