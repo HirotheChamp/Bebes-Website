@@ -1,0 +1,23 @@
+#navbar {
+    display: flex;
+   justify-content: center;
+   border: solid;
+   border-color: red;
+  
+   
+}
+
+.navbar-list {
+   list-style: none;
+  flex-basis: 10%;
+  text-align: center;
+  text-orientation: sideways;
+}
+
+#navbar-items {
+    display: flex;
+  justify-content: space-between;
+    flex-direction: row;
+    
+}
+
