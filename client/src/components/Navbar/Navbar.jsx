@@ -11,10 +11,10 @@ const Navbar = () => {
       <nav className='navbar-items'>
     
         <ul>
-            <a href="/"><li >Home</li></a>
-            <a href="/services"><li >Services</li></a>
-            <a href="/contact"><li>Contact Me</li></a>
-            <a href="/about"><li>About Me</li></a>
+            <li><a href="/">Home</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact Me</a></li>
+            <li><a href="/about">About Me</a></li>
         </ul>
         </nav>
     </header>

@@ -9,9 +9,10 @@ import {
 
 
 import './App.css';
+import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Contact from './pages/Contact/Contact';
 import Home from './pages/Home';
 import Services from './pages/Services';
 
@@ -33,7 +34,7 @@ function App() {
        <Route path='/contact' exact element={<Contact/>} />  
     
     </Routes>
-
+<Footer/>
     </BrowserRouter>
   );
 }

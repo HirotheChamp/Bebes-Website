@@ -16,27 +16,34 @@
 
    
 }
+.navbar-items {
+  margin-left: 1.5rem;
+  
+}
 
 .navbar-items ul {
   display: flex;
-  align-items: center;
+ justify-content: space-between;
   list-style: none;
+width: 100%;
+
+}
+
+li a {
+  display: flex;
+  padding-left: 4px;
+  padding-right: 4px; 
 
 }
 
 .navbar-logo h1{
   margin: 0;
+  margin-left: 1.5rem;
   font-size: 1.5rem;
   
 }
 
-.navbar-items {
-    display: flex;
- align-items: center;
-   
-   
-    
-}
+
 a:link {
   text-decoration: none;
 }
