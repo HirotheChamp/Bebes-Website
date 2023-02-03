@@ -1,7 +1,7 @@
 footer {
     
         font-size: 0.7rem;
-        position: fixed;
+      position: relative;
         bottom: 0.4rem;
         right: 1rem;
         text-align: right;
