@@ -14,7 +14,7 @@ import Navbar from './components/Navbar/Navbar';
 import About from './pages/About';
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home';
-import Services from './pages/Services';
+import Services from './pages/Services/Services';
 
 
 function App() {
