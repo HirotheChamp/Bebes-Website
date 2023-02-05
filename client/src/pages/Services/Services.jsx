@@ -5,7 +5,7 @@ const Services = () => {
     <section class='services'>
      
     <div class='servicesContent'>
-    <h1>Our Services</h1>
+    <h1>My Services</h1>
     </div>
     <div class='servicescontainer'>
   
@@ -18,7 +18,7 @@ const Services = () => {
                
               </div>
 
-      <h2>Consultation</h2>
+      <h2>Portrait</h2>
 
         <div class='serviceform-text'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et tenetur sint illo esse soluta explicabo enim libero possimus qui fuga quisquam, 
@@ -35,7 +35,7 @@ const Services = () => {
             </div>
               
               </div>
-     <h2>Best Ideas</h2>
+     <h2>Commercial</h2>
      <div class='serviceform-text'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et tenetur sint illo esse soluta explicabo enim libero possimus qui fuga quisquam, 
           culpa voluptatum. Delectus veritatis error dolorem odio ipsam.</p>
@@ -50,7 +50,7 @@ const Services = () => {
             </div>
                
               </div>
-     <h2>Simple Settings</h2>
+     <h2>Sport</h2>
      <div class='serviceform-text'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et tenetur sint illo esse soluta explicabo enim libero possimus qui fuga quisquam, 
           culpa voluptatum. Delectus veritatis error dolorem odio ipsam.</p>
