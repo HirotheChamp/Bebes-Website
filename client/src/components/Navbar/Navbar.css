@@ -1,28 +1,9 @@
-.navbar-items {
+.navbar {
+  height: 10vh;
+  background:  rgb(197, 155, 236);
   display: flex;
+  justify-content: center;
   align-items: center;
- 
-   border: solid;
-   border-color: red;
-  /* position: fixed; */  
-  /* address later since it conflicts with the pages   */
-  width: 100%;
-  left: 0;
-  top: 0;
-
-  
-  /* background: violet; */
-  box-sizing: border-box;
-
-   
-}
-.navbar-items {
-
-  display: flex;
-  justify-content: space-around;
-   list-style: none;
- width: 100%;
- position: relative;
 }
 
 
@@ -35,50 +16,31 @@
   
 }
 
-.link {
-background: none;
-border: none;
-text-decoration: none;
-color: #777;
-font-family: inherit;
-font-size: inherit;
-cursor: pointer;
-padding: 0;
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-end;
+  margin-right: 2rem;
 }
 
-a:link {
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item a {
   text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  margin-right: 2rem;
 }
 
-a:hover {
-  color: red;
+.nav-item a:hover {
+ background: rgb(197, 155, 236);
 }
 
 
-.dropdown {
-  position: relative;
-}
 
-.dropdown.active + .link,
-.link:hover {
-  color: black;
-}
 
- .dropdown-items {
-  position: absolute;
- left: 0;
-  top: calc(100% + .25rem);
-  background-color: white;
-  padding: .75rem;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
-opacity: 0;
-pointer-events: none;
-transform: translateY(-10px);
-transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-}
-
-.dropdown.active > .link + .dropdown-items{
-opacity: 1;
-transform: translateY(0);
-pointer-events: auto;
-}
