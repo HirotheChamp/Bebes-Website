@@ -1,6 +1,9 @@
 .more-submenu {
     width: 10rem;
-    position: absolute;
+   
+   position:absolute;
+   margin-top: 10px;
+
     list-style: none;
 text-align: start;
 
@@ -9,6 +12,11 @@ text-align: start;
 background: rgb(0, 0, 0);
 cursor: pointer;
 }
+
+.more-submenu li a:hover{
+    background: rgb(221, 217, 217);
+    
+    }
 
 .more-submenu.clicked{
    display: none;
@@ -21,6 +29,3 @@ cursor: pointer;
     padding: 16px;
 }
 
-.submenu-item:hover{
-  background:   rgb(223, 219, 219)
-}

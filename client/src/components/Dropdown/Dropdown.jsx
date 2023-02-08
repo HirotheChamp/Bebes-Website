@@ -25,9 +25,9 @@ return (
 )
           })}  
         </ul>
-        <Dropdown/>
+   
     </div>
   )
 }
 
-export default Dropdown
+export default Dropdown;

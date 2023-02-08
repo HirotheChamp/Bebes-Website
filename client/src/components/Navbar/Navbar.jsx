@@ -10,7 +10,8 @@ const [dropdown, setDropdown] = useState(false)
   return (
     <nav className='navbar'>
  
-<Link to="/" className='navbar-logo'><h1>SeRi Photography</h1>
+<Link to="/" className='navbar-logo'>
+  <h1>SeRi Photography</h1>
 </Link>
 
 <ul className='nav-items'>
@@ -18,15 +19,16 @@ const [dropdown, setDropdown] = useState(false)
 
 if (item.title === "More") {
   return (
-    <li key={item.id} className={item.cName}>
+    <li key={item.id} className={item.cName}
+    onMouseEnter={() => setDropdown(true)} 
+    onMouseLeave = {() => setDropdown(false)}
+    >
       <Link 
       to={item.path} 
-      onMouseEnter={() => setDropdown(true)} 
-      onMouseLeave = {() => setDropdown(false)}
-      >
+    >
         {item.title}
         </Link>
-      {dropdown && <Dropdown/>}
+     {dropdown && <Dropdown/>} 
     </li>
     )
 }

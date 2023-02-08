@@ -21,7 +21,7 @@ export const navItems = [
     {
         id: 4,
         title: "Commercial", 
-        path: "./",
+        path: "./commercial",
         cName: "nav-item",
     },
     {
