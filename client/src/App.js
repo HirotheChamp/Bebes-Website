@@ -26,11 +26,9 @@ function App() {
     <BrowserRouter>
    
     <Navbar/>
+
      <Routes>
 
-    
-    
-   
        <Route path='/' exact element={<Home/>} />  
        <Route path='/portraits' exact element={<Portraits/>} />  
        <Route path='/services' exact element={<Services/>} />  
@@ -40,6 +38,7 @@ function App() {
        <Route path='/sports' exact element={<Sports/>} />
     
     </Routes>
+    
 <Footer/>
     </BrowserRouter>
   );
