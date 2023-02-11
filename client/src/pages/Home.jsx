@@ -1,10 +1,12 @@
 import React from 'react'
-
+import Imageupload from '../components/Image Upload/Imageupload';
 
 const Home = () => {
   return (
-   
-    <div>Menakin</div>
+   <>
+   <Imageupload />
+   <div>Main Page</div>
+   </>
  
   )
 }
