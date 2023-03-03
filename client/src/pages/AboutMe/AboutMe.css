@@ -1,19 +1,30 @@
-.about-me-container {
+.about-me {
+    position: static;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    
+
+
+
+}
+
+.about-me-content {
     display: flex;
   
-    position: relative;
     align-items: center;
     width: 100%;
 }
 
-.about-me-container .about-me-picture {
- z-index: -100;
+.about-me-content .about-me-picture {
+
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-.about-me-container .about-me-text {
+.about-me-content .about-me-text {
     width: 50%;
     display: flex;
     justify-content: center;

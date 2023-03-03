@@ -14,7 +14,7 @@ import Navbar from './components/Navbar/Navbar';
 import AboutMe from './pages/AboutMe/AboutMe';
 import Commercial from './pages/Commercial/Commercial';
 import Contact from './pages/Contact/Contact';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import Portraits from './pages/Portraits/Portraits';
 import Services from './pages/Services/Services';
 import Sports from './pages/Sports/Sports';

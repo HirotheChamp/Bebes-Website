@@ -1,0 +1,22 @@
+.home {
+    position: static;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    
+
+
+
+}
+
+.home .home-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-content .section-one, .home-content .section-two {
+    display: flex;
+   padding-top: 10%;
+   justify-content: center;
+}
