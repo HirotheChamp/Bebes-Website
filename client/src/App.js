@@ -11,7 +11,7 @@ import {
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
-import About from './pages/About';
+import AboutMe from './pages/AboutMe/AboutMe';
 import Commercial from './pages/Commercial/Commercial';
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home';
@@ -32,7 +32,7 @@ function App() {
        <Route path='/' exact element={<Home/>} />  
        <Route path='/portraits' exact element={<Portraits/>} />  
        <Route path='/services' exact element={<Services/>} />  
-       <Route path='/about' exact element={<About/>} />  
+       <Route path='/about' exact element={<AboutMe/>} />  
        <Route path='/contact' exact element={<Contact/>} />  
        <Route path='/commercial' exact element={<Commercial/>} />  
        <Route path='/sports' exact element={<Sports/>} />
