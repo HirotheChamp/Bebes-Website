@@ -86,6 +86,22 @@ margin-top: 30px;
 }
 
 
+.supportcontainer .contactInfo .contact-title {
+display: flex;
+flex-direction: column;
+padding: 20px;
+max-width:85%;
+
+
+}
+
+.supportcontainer .contactInfo .contact-title h1 {
+   margin: 10px;
+ color:  rgb(197, 155, 236);
+   position: relative;
+   font-size: 30px;
+  bottom: 30px;
+}
 
 
 
@@ -97,9 +113,9 @@ margin-top: 30px;
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span{
     
-color: #e91e63;
+color: #ffffff;
 font-size: 12px;
-transform: translateY(-20px);
+transform: translateY(-25px);
 }
 
 .contactForm .inputBox input[type='submit']{

@@ -1,62 +1,75 @@
 import React from 'react'
 import './Services.css'
+import { BiFootball } from '@react-icons/all-files/bi/BiFootball'
+import { BsPersonBoundingBox } from '@react-icons/all-files/bs/BsPersonBoundingBox'
+import { BiDrink } from '@react-icons/all-files/bi/BiDrink'
+import {useHistory} from 'react-router-dom'
 const Services = () => {
+
+ 
   return (
-    <section class='services'>
+    <section className='services'>
      
-    <div class='servicesContent'>
+    <div className='servicesContent'>
     <h1>My Services</h1>
     </div>
-    <div class='servicescontainer'>
+    <div className='servicescontainer'>
   
 
-    <div class='servicesForm1'>
-    <div class='box'>
-              <div class='icon-box'>
-                <i class="fa-solid fa-location-dot"></i>
+    <div className='servicesForm1'>
+    <div className='box'>
+              <div className='icon-box'>
+              <div className='icon-1'>
+               <BsPersonBoundingBox/>
+               </div>
             </div>
                
               </div>
 
-      <h2>Portrait</h2>
+      <h2>Portraits</h2>
 
-        <div class='serviceform-text'>
+        <div className='serviceform-text'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et tenetur sint illo esse soluta explicabo enim libero possimus qui fuga quisquam, 
           culpa voluptatum. Delectus veritatis error dolorem odio ipsam.</p>
         </div>
       
         
-      
+      <button onClick={event => window.location.href='/portraits'}>Learn More</button>
       </div>
       
-      <div class='servicesForm2'>
-      <div class='box'>
-              <div class='icon-box'>
-                <i class="fa-solid fa-location-dot"></i>
+      <div className='servicesForm2'>
+      <div className='box'>
+              <div className='icon-box'>
+              <div className='icon-2'>
+               <BiDrink/>
+               </div>
             </div>
               
               </div>
      <h2>Commercial</h2>
-     <div class='serviceform-text'>
+     <div className='serviceform-text'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et tenetur sint illo esse soluta explicabo enim libero possimus qui fuga quisquam, 
           culpa voluptatum. Delectus veritatis error dolorem odio ipsam.</p>
         </div>
        
-     
+        <button onClick={event => window.location.href='/commercial'}>Learn More</button>
      </div>
-     <div class='servicesForm3'>
-     <div class='box'>
-              <div class='icon-box'>
-                <i class="fa-solid fa-location-dot"></i>
+     <div className='servicesForm3'>
+     <div className='box'>
+              <div className='icon-box'>
+                <div className='icon-3'>
+               <BiFootball/>
+               </div>
             </div>
                
               </div>
-     <h2>Sport</h2>
-     <div class='serviceform-text'>
+     <h2>Sports</h2>
+     <div className='serviceform-text'>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus et tenetur sint illo esse soluta explicabo enim libero possimus qui fuga quisquam, 
           culpa voluptatum. Delectus veritatis error dolorem odio ipsam.</p>
+         
         </div>
-     
+        <button onClick={event => window.location.href='/sports'}>Learn More</button>
      </div>
     </div>
     </section>

@@ -4,32 +4,38 @@
     padding: 50px 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     
-
-
 
 }
 
 .about-me-content {
     display: flex;
-  
+ 
     align-items: center;
     width: 100%;
 }
 
 .about-me-content .about-me-picture {
-height: 70%;
-    width: 50%;
+position: relative;
+    width: auto;
+ margin: 20px;
     display: flex;
-    justify-content: center;
+  padding: 20px;
+    flex-direction: column;
+   
 }
 
 .about-me-content .about-me-text {
-    width: 50%;
+   
     display: flex;
-    justify-content: center;
+    padding: 20px;
+    margin: 20px;
     flex-direction: column;
    
+ 
 }
 
 .about-me-content .about-me-text h1 {
@@ -40,5 +46,6 @@ height: 70%;
 }
 .about-me-content .about-me-text p {
     color: rgb(118, 122, 126);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width:80%;
 }

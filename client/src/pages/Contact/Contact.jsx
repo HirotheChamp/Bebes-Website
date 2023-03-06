@@ -9,40 +9,48 @@ const Contact = () => {
         </div>
         <div class='supportcontainer'>
           <div class='contactInfo'>
+            <div className='contact-title'>
+
+            
+            <h1>Contact Info</h1>
+            <p>
+          Feel free to message me with any questions or concerns that you may have about myself and my services!
+          </p>
+          </div>
             <div class='box'>
-              <div class='icon-box'>
+              {/* <div class='icon-box'>
                 <i class="fa-solid fa-location-dot"></i>
-            </div>
+            </div> */}
                 <div class='text'>
-                  <h3>Address</h3>
-                  <p>715 Craig Ave, Campbell, California 95008</p>
+                  <h3>Location</h3>
+                  <p>San Francisco Bay Area - South Bay</p>
                 </div>
               </div>
             
             <div class='box'>
-            <div class='icon-box'>
+            {/* <div class='icon-box'>
                 <i class="fa-solid fa-phone"></i>
-            </div>
+            </div> */}
                 <div class='text'>
                   <h3>Phone</h3>
-                  <p>408-888-6532</p>
+                  <p>408-674-1627</p>
                 </div>
               </div>
             
             <div class='box'>
-            <div class='icon-box'>
+            {/* <div class='icon-box'>
                 <i class="fa-solid fa-envelope"></i>
-            </div>
+            </div> */}
                 <div class='text'>
                   <h3>Email</h3>
-                  <p>kyleyoungins94@gmail.com</p>
+                  <p>rioselina@gmail.com</p>
                 </div>
               </div>
           </div>
         
   
         <div class='contactForm'>
-          <form action='https://formsubmit.co/kyleyoungins94@gmail.com' method='POST'>
+          <form action='https://formsubmit.co/rioselina@gmail.com' method='POST'>
           <h2>Contact Me</h2>
             <div class='inputBox'>
               <input type='text' name='Name' required='required'/>
@@ -51,6 +59,14 @@ const Contact = () => {
             <div class='inputBox'>
               <input type='email' name='Email' required='required'/>
               <span>Email</span>
+            </div>
+            <div class='inputBox'>
+              <input type='text' name='Name' required='required'/>
+              <span>Phone</span>
+            </div>
+            <div class='inputBox'>
+              <input type='text' name='Name' required='required'/>
+              <span>Subject</span>
             </div>
             <div class='inputBox'>
               <textarea name='Message' required='required' rows={5} cols={30}></textarea>
