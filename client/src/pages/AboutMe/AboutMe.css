@@ -18,7 +18,7 @@
 }
 
 .about-me-content .about-me-picture {
-
+height: 70%;
     width: 50%;
     display: flex;
     justify-content: center;
