@@ -25,6 +25,7 @@
 
 
 .servicescontainer{
+   
     width: 100%;
     display: flex;
     justify-content: center;
@@ -38,26 +39,31 @@ font-size: small;
 }
 
 
-/* .servicescontainer .servicesForm1, .servicesForm2, .servicesForm3, .box .icon-box{
-    min-width: 10px;
-    height: 10px;
+.servicesForm1, .servicesForm2, .servicesForm3, .box .icon-box{
+    min-width: 60px;
+    height: 60px;
     background-color: #ffffff;
-   
-   
-   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     border-radius: 50%;
-    font-size: 22px;
+    
     -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
-} */
+   
+ 
+   
+    
+} 
 
 
 
 
 
 .servicesForm1, .servicesForm2, .servicesForm3{
-    
+    height: 100%;
     width: 100%;
     margin-top: 10px;
  margin: 10px;
