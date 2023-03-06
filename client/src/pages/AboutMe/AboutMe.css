@@ -28,4 +28,17 @@ height: 70%;
     width: 50%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+   
+}
+
+.about-me-content .about-me-text h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    padding-bottom: 30px;
+    color:rgb(197, 155, 236);
+}
+.about-me-content .about-me-text p {
+    color: rgb(118, 122, 126);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
