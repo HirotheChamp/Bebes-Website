@@ -1,4 +1,5 @@
 import React from 'react'
+import './Portraits.css'
 
 const Portraits = () => {
   return (

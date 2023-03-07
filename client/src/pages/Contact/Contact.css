@@ -97,7 +97,7 @@ max-width:85%;
 
 .supportcontainer .contactInfo .contact-title h1 {
    margin: 10px;
- color:  rgb(197, 155, 236);
+ color: var(--primary);
    position: relative;
    font-size: 30px;
   bottom: 30px;
@@ -121,7 +121,7 @@ transform: translateY(-25px);
 .contactForm .inputBox input[type='submit']{
     width: 100%;
     background: rgb(255, 255, 255);
-    color: rgb(197, 155, 236);
+    color: var(--primary);
    
     cursor: pointer;
     padding: 10px;
@@ -158,7 +158,7 @@ transform: translateY(-25px);
 .contactForm{
     width: 40%;
     padding: 40px;
-    background: rgb(180, 126, 230);
+    background: var(--primary);
     border-radius: 15px;
     -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
@@ -186,12 +186,12 @@ transform: translateY(-25px);
     /* border: 2px solid #333; */
     outline: none;
     resize: none;
-    background-color: rgb(197, 155, 236)
+    background-color: var(--primary);
 }
 
 .contactForm .inputBox input
 { 
-    background-color: rgb(197, 155, 236);
+    background-color: var(--primary);
 width: 100%;
 padding: 5px 0;
 font-size: 16px;

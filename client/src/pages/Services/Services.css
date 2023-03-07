@@ -41,7 +41,7 @@ font-size: small;
 .servicescontainer .serviceForm1, .serviceForm2, .serviceForm3, button{
     width: 40%;
     background: rgb(255, 255, 255);
-    color: rgb(197, 155, 236);
+    color: var(--primary);
  border: transparent;
     cursor: pointer;
     margin-top: 20px;
@@ -72,13 +72,13 @@ font-size: small;
 } 
 
 .servicesForm1, .servicesForm2, .servicesForm3, .box .icon-box .icon-2, .icon-3 {
-    color: rgb(197, 155, 236);
+    color: var(--primary);
     display: flex;
     font-size: 40px;
 }
 
 .servicesForm1, .servicesForm2, .servicesForm3, .box .icon-box .icon-1 {
-    color: rgb(197, 155, 236);
+    color: var(--primary);
     display: flex;
     font-size: 35px;
    
