@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
-import axios from '../../api/axios'
+import './ImageUpload.css'
+import ProgressBar from '../ProgressBar/ProgressBar';
 
-const Imageupload = () => {
+const ImageUpload = () => {
 
     const [file, setFile] = useState(null);
     const [error, setError] = useState(null);
@@ -17,23 +18,28 @@ const Imageupload = () => {
       setError('');
      } else {
       setFile(null);
-      setError('Please select an image file (png or jpeg)');
+      setError('Please select an image file (png or jpg)');
      }
-    }
+    };
 
     
 
  
   return (
-    <div className='image-upload'>
+    <form>
+  <label>
         <input type='file' name='file' onChange={changeHandler}/>
+        <span>+</span>
+        </label>
         <div className='output'>
           {error && <div className='error'>{error}</div>}
           {file && <div>{file.name} </div>}
+          {file && <ProgressBar file={file} setFile={setFile}/>}
         </div>
      
-    </div>
+   
+    </form>
   )
 }
 
-export default Imageupload;
+export default ImageUpload;

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Portraits.css'
-import Imageupload from '../../components/Image Upload/Imageupload';
+import ImageUpload from '../../components/Image Upload/ImageUpload';
+import ImageGrid from '../../components/ImageGrid/ImageGrid'
 
 const Portraits = () => {
   return (
@@ -8,7 +9,9 @@ const Portraits = () => {
       <h1>Portraits</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-      <Imageupload />
+      <ImageUpload />
+
+      <ImageGrid/>
       </div>
       
   )
