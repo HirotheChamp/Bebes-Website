@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Portraits.css'
 import ImageUpload from '../../components/Image Upload/ImageUpload';
 import ImageGrid from '../../components/ImageGrid/ImageGrid'
+import Modal from '../../components/Modal/Modal';
 
 const Portraits = () => {
+  const [selectedImg, setSelectedImg] = useState(null);
   return (
     <div className='portraits'>
       <h1>Portraits</h1>
@@ -11,7 +13,8 @@ const Portraits = () => {
 
       <ImageUpload />
 
-      <ImageGrid/>
+      <ImageGrid setSelectedImg={setSelectedImg}/>
+      <Modal selectedImg={selectedImg}/>
       </div>
       
   )
