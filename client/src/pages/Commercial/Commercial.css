@@ -1,0 +1,14 @@
+.commercial h1{
+    color: var(--primary);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+  .commercial h1, .commercial p{
+    text-align: center;
+  }
+
+  .commercial h1{
+    margin-top: 60px;
+    font-size: 2.6rem;
+  }
