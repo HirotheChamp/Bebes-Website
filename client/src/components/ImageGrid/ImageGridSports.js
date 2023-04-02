@@ -3,8 +3,8 @@ import useFirestore from '../../hooks/useFirestore';
 import './ImageGrid.css'
 import {motion} from 'framer-motion';
 
-const ImageGrid = ({setSelectedImg}) => {
-    const { docs } = useFirestore('images');
+const ImageGridSports = ({setSelectedImg}) => {
+    const { docs } = useFirestore('sports-images');
 
     console.log(docs)
 
@@ -27,4 +27,4 @@ const ImageGrid = ({setSelectedImg}) => {
   )
 }
 
-export default ImageGrid;
+export default ImageGridSports;

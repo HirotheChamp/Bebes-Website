@@ -24,7 +24,8 @@ if (item.title === "More") {
     onMouseLeave = {() => setDropdown(false)}
     >
       <Link 
-      to={item.path} 
+      to={item.path}
+      style={{pointerEvents: 'none'}}
     >
         {item.title}
         </Link>

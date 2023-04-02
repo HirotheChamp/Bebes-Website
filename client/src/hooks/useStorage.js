@@ -9,7 +9,9 @@ const useStorage = (file) => {
     useEffect(() => {
 //references
 const storageRef = projectStorage.ref(file.name);
-const collectionRef = projectFirestore.collection('images');
+const portraitCollectionRef = projectFirestore.collection('portrait-images');
+const sportsCollectionRef = projectFirestore.collection('sports-images');
+const commercialCollectionRef = projectFirestore.collection('commercial-images');
 
 storageRef.put(file).on('state_changed', (snap) => {
 let percentage = (snap.bytesTransferred / snap.totalBytes) * 100;
@@ -18,8 +20,10 @@ setProgress(percentage);
     setError(err);
 }, async () => {
 const url = await storageRef.getDownloadURL();
-const createAt = timestamp();
-await collectionRef.add({url, createAt });
+const createdAt = timestamp();
+await portraitCollectionRef.add({url, createdAt });
+await sportsCollectionRef.add({url, createdAt });
+await commercialCollectionRef.add({url, createdAt });
 setUrl(url);
 });
     }, [file]);

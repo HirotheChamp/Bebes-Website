@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './Commercial.css'
 import ImageUpload from '../../components/Image Upload/ImageUpload';
-import ImageGrid from '../../components/ImageGrid/ImageGrid'
+import ImageGridCommercial from '../../components/ImageGrid/ImageGridCommercial'
 import Modal from '../../components/Modal/Modal';
 
 const Commercial = () => {
@@ -13,7 +13,7 @@ const Commercial = () => {
 
       <ImageUpload />
 
-      <ImageGrid setSelectedImg={setSelectedImg}/>
+      <ImageGridCommercial setSelectedImg={setSelectedImg}/>
       { selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg}/> }
       </div>
   )

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Sports.css'
 import ImageUpload from '../../components/Image Upload/ImageUpload';
-import ImageGrid from '../../components/ImageGrid/ImageGrid'
+import ImageGridSports from '../../components/ImageGrid/ImageGridSports'
 import Modal from '../../components/Modal/Modal';
 
 const Sports = () => {
@@ -13,7 +13,7 @@ const Sports = () => {
 
       <ImageUpload />
 
-      <ImageGrid setSelectedImg={setSelectedImg}/>
+      <ImageGridSports setSelectedImg={setSelectedImg}/>
       { selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg}/> }
       </div>
   )
