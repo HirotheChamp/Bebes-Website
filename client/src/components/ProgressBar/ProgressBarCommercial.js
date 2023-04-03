@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import useStorage from '../../hooks/useStorage'
+import useStorage from '../../hooks/UseStorageCommercial'
 import './ProgressBar.css'
 import { motion } from 'framer-motion'
 
-const ProgressBar = ({file, setFile}) => {
+const ProgressBarCommercial = ({file, setFile}) => {
     const {url, progress} = useStorage(file);
 
     useEffect(() => {
@@ -20,4 +20,4 @@ if (url) {
   )
 }
 
-export default ProgressBar;
+export default ProgressBarCommercial;

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './Commercial.css'
-import ImageUpload from '../../components/Image Upload/ImageUpload';
+import ImageUploadCommercial from '../../components/Image Upload/ImageUploadCommercial';
 import ImageGridCommercial from '../../components/ImageGrid/ImageGridCommercial'
 import Modal from '../../components/Modal/Modal';
 
@@ -11,7 +11,7 @@ const Commercial = () => {
       <h1>Commercial</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-      <ImageUpload />
+      <ImageUploadCommercial />
 
       <ImageGridCommercial setSelectedImg={setSelectedImg}/>
       { selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg}/> }

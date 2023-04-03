@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './ImageUpload.css'
-import ProgressBar from '../ProgressBar/ProgressBar';
+import ProgressBarSports from '../ProgressBar/ProgressBarSports';
 
 const ImageUpload = () => {
 
@@ -34,7 +34,7 @@ const ImageUpload = () => {
         <div className='output'>
           {error && <div className='error'>{error}</div>}
           {file && <div>{file.name} </div>}
-          {file && <ProgressBar file={file} setFile={setFile}/>}
+          {file && <ProgressBarSports file={file} setFile={setFile}/>}
         </div>
      
    

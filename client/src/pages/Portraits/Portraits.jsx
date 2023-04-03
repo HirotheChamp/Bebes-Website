@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Portraits.css'
-import ImageUpload from '../../components/Image Upload/ImageUpload';
+import ImageUploadPortrait from '../../components/Image Upload/ImageUploadPortraits';
 import ImageGridPortrait from '../../components/ImageGrid/ImageGridPortrait'
 import Modal from '../../components/Modal/Modal';
 
@@ -11,7 +11,7 @@ const Portraits = () => {
       <h1>Portraits</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-      <ImageUpload />
+      <ImageUploadPortrait />
 
       <ImageGridPortrait setSelectedImg={setSelectedImg}/>
       { selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg}/> }

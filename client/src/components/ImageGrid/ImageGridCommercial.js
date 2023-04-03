@@ -6,7 +6,7 @@ import {motion} from 'framer-motion';
 const ImageGridCommercial = ({setSelectedImg}) => {
     const { docs } = useFirestore('commercial-images');
 
-  
+  console.log(docs);
 
   return (
     <div className='img-grid'>
