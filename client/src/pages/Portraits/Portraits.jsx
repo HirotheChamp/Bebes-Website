@@ -9,7 +9,7 @@ const Portraits = () => {
   return (
     <div className='portraits'>
       <h1>Portraits</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>A variety of face shots in different moods, settings and styles.</p>
 
       <ImageUploadPortrait />
 

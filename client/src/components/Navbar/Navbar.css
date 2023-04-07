@@ -1,12 +1,18 @@
-.navbar {
-  height: 10vh;
-  background: var(--primary);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 
-}
+
+
+
+/* @media screen and (min-width: 960px){ */
+  .navbar {
+    height: 10vh;
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+  }
+/* } */
 
 
 

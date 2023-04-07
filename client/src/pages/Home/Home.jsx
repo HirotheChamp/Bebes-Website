@@ -10,7 +10,7 @@ const Home = () => {
    
    <div className='home-content'>
     
-    <div className='section-one'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repellat temporibus maiores unde iusto dolorum quasi dignissimos quod officiis iure, doloribus maxime aut ad assumenda? Quae aliquam quaerat repellendus eaque!</div>
+    <div className='section-one'>Welcome</div>
    
    
    </div>

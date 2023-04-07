@@ -9,7 +9,7 @@ const Commercial = () => {
   return (
     <div className='commercial'>
       <h1>Commercial</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Products need a photo in order to shine. Here are my collection of photos showing off various brands.</p>
 
       <ImageUploadCommercial />
 

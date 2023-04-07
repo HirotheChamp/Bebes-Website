@@ -9,7 +9,7 @@ const Sports = () => {
   return (
     <div className='sports'>
       <h1>Sports</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Feeling Sporty? Here is my collection of photos relating to sports of every type.</p>
 
       <ImageUploadSports />
 
