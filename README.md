@@ -70,7 +70,10 @@ My girlfriend uses this for her pictures!
 
 ## Project Status
 
-Just started the project
+-Navbar completed
+-page structure completed
+-Firebase implemented
+-dropdown menu implemented
 
 <hr></hr>
 
